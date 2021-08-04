@@ -1,0 +1,5 @@
+/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir
+/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/cmake-build-debug/CMakeFiles/test.dir
+/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithmsTests.dir
+/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/cmake-build-debug/CMakeFiles/edit_cache.dir
