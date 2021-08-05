@@ -1,1 +1,0 @@
-/usr/bin/c++ -pthread -Wall -Werror -Wpedantic -fprofile-arcs -ftest-coverage -g CMakeFiles/DataStructuresAndAlgorithms.dir/main.cpp.o CMakeFiles/DataStructuresAndAlgorithms.dir/yandexTasks.cpp.o -o DataStructuresAndAlgorithms 

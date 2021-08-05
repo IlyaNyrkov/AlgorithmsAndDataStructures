@@ -1,1 +1,0 @@
-/usr/bin/c++ -pthread -Wall -Werror -Wpedantic -fprofile-arcs -ftest-coverage -g CMakeFiles/DataStructuresAndAlgorithmsTests.dir/run_all_tests.cpp.o CMakeFiles/DataStructuresAndAlgorithmsTests.dir/yandex_tasks_tests.cpp.o CMakeFiles/DataStructuresAndAlgorithmsTests.dir/yandexTasks.cpp.o -o DataStructuresAndAlgorithmsTests  /usr/lib/x86_64-linux-gnu/libgtest.a 
