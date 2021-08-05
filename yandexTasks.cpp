@@ -1,6 +1,7 @@
 #include "yandexTasks.h"
 
 namespace yaTasks {
+
     void ReplaceSpacesInString(std::string& str) {
         //  add spaces counter, to count how much additional space we need
         //  %20 requires 3 bytes, space symbol requires one
@@ -48,5 +49,47 @@ namespace yaTasks {
                 SpacesCount--;
             }
         }
+    }
+
+    std::list<int> mergeTwoSortedLists(const std::list<int>& firstList,
+                                       const std::list<int>& secondList) {
+        std::list<int> result;
+        //  make iterators for both lists
+        //  (can't use indexes because list is not random access container
+        auto firstIt = firstList.begin();
+        auto secondIt = secondList.begin();
+        // if one of iterators reaches end we stop to avoid out of range exception
+        while (firstIt != firstList.end() && secondIt != secondList.end()) {
+            // if first iterator is smaller we push that element in result
+            if (*firstIt < *secondIt) {
+                result.push_back(*firstIt);
+                firstIt++;
+            } else if (*firstIt == *secondIt) {
+                //  if elements equal add and increment both of them,
+                // we don't need to get rid of duplicates in this task
+                result.push_back(*firstIt);
+                result.push_back(*secondIt);
+                firstIt++;
+                secondIt++;
+            } else {
+                result.push_back(*secondIt);
+                secondIt++;
+            }
+        }
+        //  when one of lists reaches end we need to add remaining elements
+        //  which are already sorted and first element in remaining sequence
+        //  is bigger or equal than last element in result, so we can safely
+        //  add remaining elements
+        while (firstIt != firstList.end()) {
+            result.push_back(*firstIt);
+            firstIt++;
+        }
+        // we don't need to check what iterator reached end because
+        // while already does that, that's why we repeat two loops
+        while (secondIt != secondList.end()) {
+            result.push_back(*secondIt);
+            secondIt++;
+        }
+        return result;
     }
 }
