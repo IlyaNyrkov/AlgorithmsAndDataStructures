@@ -140,11 +140,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/cmake-build-debug/run_all_tests.cpp">
-			<Option target="DataStructuresAndAlgorithmsTests"/>
-		</Unit>
 		<Unit filename="/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/main.cpp">
 			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/run_all_tests.cpp">
+			<Option target="DataStructuresAndAlgorithmsTests"/>
+		</Unit>
+		<Unit filename="/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/yandexTasks.cpp">
+			<Option target="DataStructuresAndAlgorithms"/>
+			<Option target="DataStructuresAndAlgorithmsTests"/>
+		</Unit>
+		<Unit filename="/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/yandexTasks.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+			<Option target="DataStructuresAndAlgorithmsTests"/>
+		</Unit>
+		<Unit filename="/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/yandex_tasks_tests.cpp">
+			<Option target="DataStructuresAndAlgorithmsTests"/>
 		</Unit>
 		<Unit filename="/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

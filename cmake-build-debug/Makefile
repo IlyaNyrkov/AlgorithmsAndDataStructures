@@ -200,6 +200,57 @@ run_all_tests.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresAndAlgorithmsTests.dir/build.make CMakeFiles/DataStructuresAndAlgorithmsTests.dir/run_all_tests.cpp.s
 .PHONY : run_all_tests.cpp.s
 
+yandexTasks.o: yandexTasks.cpp.o
+.PHONY : yandexTasks.o
+
+# target to build an object file
+yandexTasks.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresAndAlgorithms.dir/build.make CMakeFiles/DataStructuresAndAlgorithms.dir/yandexTasks.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresAndAlgorithmsTests.dir/build.make CMakeFiles/DataStructuresAndAlgorithmsTests.dir/yandexTasks.cpp.o
+.PHONY : yandexTasks.cpp.o
+
+yandexTasks.i: yandexTasks.cpp.i
+.PHONY : yandexTasks.i
+
+# target to preprocess a source file
+yandexTasks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresAndAlgorithms.dir/build.make CMakeFiles/DataStructuresAndAlgorithms.dir/yandexTasks.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresAndAlgorithmsTests.dir/build.make CMakeFiles/DataStructuresAndAlgorithmsTests.dir/yandexTasks.cpp.i
+.PHONY : yandexTasks.cpp.i
+
+yandexTasks.s: yandexTasks.cpp.s
+.PHONY : yandexTasks.s
+
+# target to generate assembly for a file
+yandexTasks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresAndAlgorithms.dir/build.make CMakeFiles/DataStructuresAndAlgorithms.dir/yandexTasks.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresAndAlgorithmsTests.dir/build.make CMakeFiles/DataStructuresAndAlgorithmsTests.dir/yandexTasks.cpp.s
+.PHONY : yandexTasks.cpp.s
+
+yandex_tasks_tests.o: yandex_tasks_tests.cpp.o
+.PHONY : yandex_tasks_tests.o
+
+# target to build an object file
+yandex_tasks_tests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresAndAlgorithmsTests.dir/build.make CMakeFiles/DataStructuresAndAlgorithmsTests.dir/yandex_tasks_tests.cpp.o
+.PHONY : yandex_tasks_tests.cpp.o
+
+yandex_tasks_tests.i: yandex_tasks_tests.cpp.i
+.PHONY : yandex_tasks_tests.i
+
+# target to preprocess a source file
+yandex_tasks_tests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresAndAlgorithmsTests.dir/build.make CMakeFiles/DataStructuresAndAlgorithmsTests.dir/yandex_tasks_tests.cpp.i
+.PHONY : yandex_tasks_tests.cpp.i
+
+yandex_tasks_tests.s: yandex_tasks_tests.cpp.s
+.PHONY : yandex_tasks_tests.s
+
+# target to generate assembly for a file
+yandex_tasks_tests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataStructuresAndAlgorithmsTests.dir/build.make CMakeFiles/DataStructuresAndAlgorithmsTests.dir/yandex_tasks_tests.cpp.s
+.PHONY : yandex_tasks_tests.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -217,6 +268,12 @@ help:
 	@echo "... run_all_tests.o"
 	@echo "... run_all_tests.i"
 	@echo "... run_all_tests.s"
+	@echo "... yandexTasks.o"
+	@echo "... yandexTasks.i"
+	@echo "... yandexTasks.s"
+	@echo "... yandex_tasks_tests.o"
+	@echo "... yandex_tasks_tests.i"
+	@echo "... yandex_tasks_tests.s"
 .PHONY : help
 
 

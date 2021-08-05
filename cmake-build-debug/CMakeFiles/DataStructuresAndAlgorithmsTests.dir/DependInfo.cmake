@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/cmake-build-debug/run_all_tests.cpp" "/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithmsTests.dir/run_all_tests.cpp.o"
+  "/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/run_all_tests.cpp" "/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithmsTests.dir/run_all_tests.cpp.o"
+  "/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/yandexTasks.cpp" "/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithmsTests.dir/yandexTasks.cpp.o"
+  "/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/yandex_tasks_tests.cpp" "/home/ilya/petProjects/CppProjects/AlgorithmsAndDataStructures/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithmsTests.dir/yandex_tasks_tests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

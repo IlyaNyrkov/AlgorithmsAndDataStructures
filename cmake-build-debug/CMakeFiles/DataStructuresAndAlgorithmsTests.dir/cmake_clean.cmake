@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DataStructuresAndAlgorithmsTests.dir/run_all_tests.cpp.o"
+  "CMakeFiles/DataStructuresAndAlgorithmsTests.dir/yandexTasks.cpp.o"
+  "CMakeFiles/DataStructuresAndAlgorithmsTests.dir/yandex_tasks_tests.cpp.o"
   "DataStructuresAndAlgorithmsTests"
   "DataStructuresAndAlgorithmsTests.pdb"
 )
